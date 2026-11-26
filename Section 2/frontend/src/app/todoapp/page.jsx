@@ -9,16 +9,24 @@ const TodoApp = () => {
 
 
     return (
-        <div>
-            <div className='container mx-auto'>
-                {/* <h1 className='text-5xl'>Count : {count}</h1>
+        <div className=''>
+            <div className='container mx-auto py-10'>
 
-                <button className='border p-3'
-                    onClick={() => { setCount(count + 1); console.log(count); }}>
-                    Add Count
-                </button> */}
+                <h2 className='text-3xl font-bold text-center my-5'>
+                    Todo App
+                </h2>
 
-                
+                <div className='border rounded-lg shadow-lg'>
+                    <div className='p-3'>
+                        <input type="text" className='w-full p-2' />
+                    </div>
+                    <div className='border-t p-4'>
+                        <p className='text-gray-500 text-center my-3 font-semibold'>
+                            No ToDo to Show😢
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
